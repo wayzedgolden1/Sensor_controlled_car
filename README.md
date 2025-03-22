@@ -7,6 +7,8 @@ Hệ thống gồm hai thành phần chính:
 - **Thiết bị đeo tay**: Bao gồm **ESP32, cảm biến ADXL345**, kết nối **WiFi** để gửi dữ liệu chuyển động.
 - **Xe mô hình**: Nhận tín hiệu điều khiển từ **WiFi** và thực thi lệnh thông qua **Module L298N** để điều khiển động cơ.
 
+![Sơ đồ hệ thống](extracted_images/slide_5.png)
+
 ### 1. Kết nối ESP32 với Driver L298 (Điều khiển động cơ xe)
 
 | ESP32 | L298 |
@@ -46,6 +48,8 @@ Nếu bạn dùng **SPI** thay vì **I2C**, kết nối như sau:
 | D23 | SDA |
 | D5 | SCL |
 
+![Mô hình xe mô hình](extracted_images/slide_7.jpg)
+
 ### Thiết bị
 - **ESP32**: Dùng để xử lý giao tiếp với xe và cảm biến (2 cái).
 - **Cảm biến gia tốc ADXL345**: Nhận diện chuyển động tay.
@@ -64,6 +68,8 @@ Nếu bạn dùng **SPI** thay vì **I2C**, kết nối như sau:
    - Nếu **tay nghiêng phải** → **Rẽ phải**.
    - Nếu **tay giữ thẳng** → **Dừng lại**.
 
+![Xử lý cử chỉ](extracted_images/slide_9.png)
+
 3. **Gửi dữ liệu qua WiFi**
    - **ESP32 trên tay** gửi tín hiệu điều khiển qua **WiFi** sử dụng giao thức **WebSocket**.
    - **ESP32 trên xe** nhận tín hiệu và chuyển đổi thành lệnh điều khiển động cơ.
@@ -72,4 +78,4 @@ Nếu bạn dùng **SPI** thay vì **I2C**, kết nối như sau:
    - Sử dụng **Module L298N** để điều khiển động cơ.
    - Lập trình **PWM** để điều chỉnh tốc độ và hướng di chuyển.
 
-Sau khi kết nối dây, bạn có thể sử dụng thư viện **Adafruit_ADXL345** hoặc **SparkFun_ADXL345** để đọc dữ liệu gia tốc, rồi gửi tín hiệu về **ESP32 trên xe**
+Sau khi kết nối dây, bạn có thể sử dụng thư viện **Adafruit_ADXL345** hoặc **SparkFun_ADXL345** để đọc dữ liệu gia tốc, rồi gửi tín hiệu về **ESP32 trên xe** qua **WiFi** hoặc **Bluetooth**.
