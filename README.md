@@ -52,13 +52,9 @@ Nếu bạn dùng **SPI** thay vì **I2C**, kết nối như sau:
 
 
 ### Thiết bị
-![](extracted_images/3.jpg)
 - **ESP32**: Dùng để xử lý giao tiếp với xe và cảm biến (2 cái).
-![](extracted_images/4.png)
 - **Cảm biến gia tốc ADXL345**: Nhận diện chuyển động tay.
-![](extracted_images/5.jpg)
 - **Module L298N**: Điều khiển động cơ xe.
-![](extracted_images/6.jpg)
 - **Xe mô hình 4 bánh**: Mô hình thực hành.
 
 ### Quy trình
@@ -77,7 +73,7 @@ Nếu bạn dùng **SPI** thay vì **I2C**, kết nối như sau:
 
 
 3. **Gửi dữ liệu qua WiFi**
-  ![] (extracted_images/10.jpg)
+  ![](extracted_images/10.jpg)
    - **ESP32 trên tay** gửi tín hiệu điều khiển qua **WiFi** sử dụng giao thức **WebSocket**.
    - **ESP32 trên xe** nhận tín hiệu và chuyển đổi thành lệnh điều khiển động cơ.
 
