@@ -5,9 +5,9 @@ Dựa trên thông tin trước đó, bạn đang sử dụng **ESP32 thường 
 
 ### Hệ thống
 Hệ thống gồm hai thành phần chính:
-![](extracted_images/1.jpg)
+
 - **Thiết bị đeo tay**: Bao gồm **ESP32, cảm biến ADXL345**, kết nối **WiFi** để gửi dữ liệu chuyển động.
-![](extracted_images/2.jpg)
+- 
 - **Xe mô hình**: Nhận tín hiệu điều khiển từ **WiFi** và thực thi lệnh thông qua **Module L298N** để điều khiển động cơ.)
 
 ### 1. Kết nối ESP32 với Driver L298 (Điều khiển động cơ xe)
