@@ -48,9 +48,10 @@ Nếu bạn dùng **SPI** thay vì **I2C**, kết nối như sau:
 | D23 | SDA |
 | D5 | SCL |
 
-![Mô hình xe mô hình](extracted_images/slide_7.jpg)
+![Mô hình xe mô hình](extracted_images/7.png)
 
 ### Thiết bị
+(extracted_images/7.jpg)
 - **ESP32**: Dùng để xử lý giao tiếp với xe và cảm biến (2 cái).
 - **Cảm biến gia tốc ADXL345**: Nhận diện chuyển động tay.
 - **Module L298N**: Điều khiển động cơ xe.
