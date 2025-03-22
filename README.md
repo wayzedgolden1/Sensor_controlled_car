@@ -32,12 +32,14 @@ Hệ thống gồm hai thành phần chính:
 Cảm biến **ADXL345** sử dụng giao tiếp **I2C**, kết nối như sau:
 
 ![](extracted_images/4.png)
-| ESP32 | ADXL345 (I2C) |
+| ESP32 | ADXL345 |
 |--------|--------------|
 | 3.3V | VCC |
 | GND | GND |
-| D22 | SCL |
-| D21 | SDA |
+| D18 | CS |
+| D19 | SDO |
+| D23 | SDA |
+| D5 | SCL |
 
 
 ### Thiết bị
