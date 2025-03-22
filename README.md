@@ -52,7 +52,7 @@ Nếu bạn dùng **SPI** thay vì **I2C**, kết nối như sau:
 
 
 ### Thiết bị
-(extracted_images/3.jpg)
+![](extracted_images/3.jpg)
 - **ESP32**: Dùng để xử lý giao tiếp với xe và cảm biến (2 cái).
 ![](extracted_images/4.png)
 - **Cảm biến gia tốc ADXL345**: Nhận diện chuyển động tay.
@@ -62,12 +62,13 @@ Nếu bạn dùng **SPI** thay vì **I2C**, kết nối như sau:
 - **Xe mô hình 4 bánh**: Mô hình thực hành.
 
 ### Quy trình
+![](extracted_images/7.png)
 1. **Đọc dữ liệu từ ADXL345**
    - Sử dụng giao thức **I2C/SPI** để lấy dữ liệu gia tốc từ **ADXL345**.
    - Xử lý giá trị gia tốc theo trục **X, Y** để xác định hướng nghiêng.
 
 2. **Xử lý dữ liệu để nhận diện cử chỉ**
-   (extracted_images/9.png)
+   ![](extracted_images/9.png)
    - Nếu **tay nghiêng trước** → **Tiến tới**.
    - Nếu **tay nghiêng sau** → **Lùi**.
    - Nếu **tay nghiêng trái** → **Rẽ trái**.
