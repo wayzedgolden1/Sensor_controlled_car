@@ -11,7 +11,7 @@ Hệ thống gồm hai thành phần chính:
 - **Xe mô hình**: Nhận tín hiệu điều khiển từ **WiFi** và thực thi lệnh thông qua **Module L298N** để điều khiển động cơ.)
 
 ### 1. Kết nối ESP32 với Driver L298 (Điều khiển động cơ xe)
-
+![](extracted_images/11.png)
 | ESP32 | L298 |
 |--------|------|
 | 3.3V | 5V (qua Buck Converter 5V) |
@@ -38,17 +38,6 @@ Cảm biến **ADXL345** sử dụng giao tiếp **I2C**, kết nối như sau:
 | GND | GND |
 | D22 | SCL |
 | D21 | SDA |
-
-Nếu bạn dùng **SPI** thay vì **I2C**, kết nối như sau:
-
-| ESP32 | ADXL345 (SPI) |
-|--------|--------------|
-| 3.3V | VCC |
-| GND | GND |
-| D18 | CS |
-| D19 | SDO |
-| D23 | SDA |
-| D5 | SCL |
 
 
 ### Thiết bị
