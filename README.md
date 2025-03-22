@@ -11,7 +11,7 @@ Hệ thống gồm hai thành phần chính:
 - **Xe mô hình**: Nhận tín hiệu điều khiển từ **WiFi** và thực thi lệnh thông qua **Module L298N** để điều khiển động cơ.)
 
 ### 1. Kết nối ESP32 với Driver L298 (Điều khiển động cơ xe)
-![](extracted_images/11.png)
+![](extracted_images/11.jpg)
 | ESP32 | L298 |
 |--------|------|
 | 3.3V | 5V (qua Buck Converter 5V) |
