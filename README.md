@@ -1,4 +1,4 @@
-(extracted_images/a.png)
+!(extracted_images/a.png)
 ## Kết nối dây trên xe mô hình
 
 Dựa trên thông tin trước đó, bạn đang sử dụng **ESP32 thường (ESP-WROOM-32) + L298** để điều khiển xe, đồng thời lắp thêm **OV7670** để nhận diện màu đỏ và kích hoạt động cơ bắn. Dưới đây là sơ đồ kết nối cơ bản:
@@ -10,7 +10,7 @@ Hệ thống gồm hai thành phần chính:
 (extracted_images/2.jpg)
 - **Xe mô hình**: Nhận tín hiệu điều khiển từ **WiFi** và thực thi lệnh thông qua **Module L298N** để điều khiển động cơ.
 
-![Sơ đồ hệ thống](extracted_images/slide_5.png)
+![Sơ đồ hệ thống](extracted_images/5.png)
 
 ### 1. Kết nối ESP32 với Driver L298 (Điều khiển động cơ xe)
 
