@@ -86,8 +86,8 @@ Sau khi kết nối dây, bạn có thể sử dụng thư viện **Adafruit_ADX
 
 | Họ và tên         | Vai trò                                              |
 |------------------|----------------------------------------------------|
-| Nguyễn Tiến Đạt | Phát triển mã nguồn, đề xuất cải tiến, triển khai dự án, làm video hướng dẫn |
+| Nguyễn Tiến Đạt | Phát triển mã nguồn, đề xuất cải tiến, triển khai dự án |
 | Phạm Thành Hưng | Đề xuất cải tiến, đề xuất dự án, viết báo cáo, hỗ trợ triển khai dự án |
-| Trịnh Hữu Hiệu  | Biên soạn tài liệu, thiết kế slide, hỗ trợ triển khai dự án, làm video hướng dẫn |
+| Trịnh Hữu Hiệu  | Biên soạn tài liệu, thiết kế slide, hỗ trợ triển khai dự án |
 | Nguyễn Thế Vinh | Hỗ trợ triển khai dự án |
 
