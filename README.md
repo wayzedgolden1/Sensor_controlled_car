@@ -73,6 +73,7 @@ Cảm biến **ADXL345** sử dụng giao tiếp **I2C**, kết nối như sau:
    - Lập trình **PWM** để điều chỉnh tốc độ và hướng di chuyển.
 
 Sau khi kết nối dây, bạn có thể sử dụng thư viện **Adafruit_ADXL345** hoặc **SparkFun_ADXL345** để đọc dữ liệu gia tốc, rồi gửi tín hiệu về **ESP32 trên xe** qua **WiFi** hoặc **Bluetooth**.
+
 ![](extracted_images/13.png)
 ## Thành viên dự án
 
