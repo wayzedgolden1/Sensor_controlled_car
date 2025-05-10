@@ -1,7 +1,6 @@
 ![](extracted_images/a.png)
 ## Kết nối dây trên xe mô hình
 
-Dựa trên thông tin trước đó, bạn đang sử dụng **ESP32 thường (ESP-WROOM-32) + L298** để điều khiển xe, đồng thời lắp thêm **OV7670** để nhận diện màu đỏ và kích hoạt động cơ bắn. Dưới đây là sơ đồ kết nối cơ bản:
 
 ### Hệ thống
 Hệ thống gồm hai thành phần chính:
